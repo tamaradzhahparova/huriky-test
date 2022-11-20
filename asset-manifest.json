@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/huriky-test/static/css/main.35a01977.css",
+    "main.js": "/huriky-test/static/js/main.9627033e.js",
+    "index.html": "/huriky-test/index.html",
+    "main.35a01977.css.map": "/huriky-test/static/css/main.35a01977.css.map",
+    "main.9627033e.js.map": "/huriky-test/static/js/main.9627033e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35a01977.css",
+    "static/js/main.9627033e.js"
+  ]
+}
