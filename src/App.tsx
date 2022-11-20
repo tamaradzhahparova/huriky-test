@@ -40,7 +40,10 @@ function App() {
             <Routes>
               <Route path="/" element={<MainPage />} />
               <Route path="/news" element={<News />} />
-              <Route path="/profile" element={<Profile />} />
+              <Route
+                path="/profile"
+                element={isAuthorized ? <Profile /> : <Navigate to="/login" />}
+              />
               <Route
                 path="/login"
                 element={isAuthorized ? <Navigate to="/profile" /> : <Login />}
